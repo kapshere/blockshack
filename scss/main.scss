@@ -1,5 +1,25 @@
-@import "../scss/.config.scss";
+@import "config";
+@import "menu";
 
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  cursor: pointer;
+  @include easeout;
+
+  .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    @include easeout;
+  }
+}
+
+html {
+  font-size: 10px;
+}
 * {
   box-sizing: border-box;
 }
