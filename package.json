@@ -1,0 +1,21 @@
+{
+  "name": "blockshack_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio for SME Blockshack.In",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kapshere"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Kapil Jain",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
