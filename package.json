@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio for SME Blockshack.In",
   "main": "index.js",
+  "homepage": "https://kapshere.github.io/BlockShackIn_Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,8 @@
   "author": "Kapil Jain",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
-  }
+  },
+  "devDependencies": {}
 }
